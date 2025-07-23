@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 
 public class dbaseconnection {
     //database connection parameters
-    private static final String URL = "jdbc:mysql://localhost:3308/moviebooking_rg?allowPublicKeyRetrieval=true&useSSL=false";
-    private static final String USER = "root";
-    private static final String PASSWORD = "Foman2607csb."; //moviebooking
+    private static final String URL = "jdbc:mysql://localhost:3308/dbname?allowPublicKeyRetrieval=true&useSSL=false";
+    private static final String USER = "username";
+    private static final String PASSWORD = "password";
     
     public static Connection getConnection(){
         Connection conn = null;
