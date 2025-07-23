@@ -1,3 +1,3 @@
 # readme
 
-(in progress) retro-themed movie booking java web application :>
+(in progress) retro-themed movie booking java web application using database :>
