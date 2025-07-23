@@ -1,0 +1,88 @@
+/*--MAIN--*/
+div#MainSection {
+    display: inline-block;
+    padding: 40px 40px;
+    background-color: #2F77D5;
+    width: 85%;
+}
+div#BannerRow {
+    margin: 0px 9px;
+}
+/*Search*/
+div#search {
+    height: 25px;
+    width: auto;
+}
+div#searchbar input {
+    background-color: #D3CCB1;
+    color: #1E334E;
+    border: none;
+    border-radius: 20px;
+    height: 28px;
+    width: 240px;
+}
+div#searchbtn input {
+    background-image: url("searchlogo.png");
+}
+/*Movies*/
+div#Movies {
+    margin: 45px 0px;
+    width:97%;
+}
+div#Pagelet{
+    margin: 20px 30px;
+    background-color: #1E334E;
+    border-radius: 20px;
+    padding: 30px;
+    width: 220px;
+    height: 385px;
+}
+div#MovieRow {
+    margin: 0px 9px;
+}
+img#MoviePoster {
+    width: auto;
+    height: 250;
+}
+div#Pagelet h3#MovieTitle {
+    margin: 0px;
+    color: #FFBB2A;
+    font-size: auto;
+    font-family: antipasto extrabold;
+    text-align: center;
+}
+div#Pagelet div#MovieGenres {
+    width: 190px;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+}
+div#MovieGenres div#genre{
+    background-color: #2F77D5;
+    border-radius: 24px;
+    height: 25px;
+    width: auto;
+    padding: 8px;
+    margin: 2px;
+    text-align: center;
+    align-items: center;
+}
+div#genre p {
+    color: #D9D9D9;
+    font-size: 12px;
+    height: 12px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}
+div#Pagelet .btn {
+    background-color: #FFBB2A;
+    border-radius: 18px;
+    padding: 4px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    color: #1E334E;
+    margin-top: 5px;
+    align-self: end;
+}

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: antipasto;
+    src: url('antipasto/AntipastoPro_trial.ttf');
+    src: url('antipasto/AntipastoPro_trial.ttf') format('truetype');
+}
+@font-face {
+    font-family: antipasto bold;
+    src: url('antipasto/AntipastoPro-Bold_trial.ttf');
+    src: url('antipasto/AntipastoPro-Bold_trial.ttf') format('truetype');
+}
+@font-face {
+    font-family: antipasto demibold;
+    src: url(antipasto/AntipastoPro-DemiBold_trial.ttf);
+    src: url(antipasto/AntipastoPro-DemiBold_trial.ttf) format('truetype');
+}
+@font-face {
+    font-family: antipasto extrabold;
+    src: url(antipasto/AntipastoPro-ExtraBold_trial.ttf);
+    src: url(antipasto/AntipastoPro-ExtraBold_trial.ttf) format('truetype');
+}
+@font-face {
+    font-family: antipasto extralight;
+    src: url(antipasto\AntipastoPro-Extralight_trial.ttf);
+    src: url(antipasto\AntipastoPro-Extralight_trial.ttf) format('truetype');
+}
+@font-face {
+    font-family: antipasto medium;
+    src: url(antipasto/AntipastoPro-Medium_trial.ttf);
+    src: url(antipasto/AntipastoPro-Medium_trial.ttf) format('truetype');
+}
+/**********/
+/*-HEADER-*/
+/**********/
+input {
+    font-family: monospace;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #2F77D5 inset !important;
+}
+div#header {
+    background-color: #FFBB2A;
+    height: 121px;
+}
+div#header div {
+    padding: 2px;
+}
+img#headLogo {
+    transform: scale(1.5);
+}
+div#header h2#head {
+    font-size: 28px;
+    color: #0F1317;
+    font-family: antipasto extrabold;
+    text-shadow: -1px -1px 0 #D3CCB1, 1px -1px 0 #D3CCB1, -1px 1px 0 #D3CCB1, 1px 1px 0 #D3CCB1;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+h3#head {
+    font-size: 22px;
+    color:#1E334E;
+    font-family: antipasto extrabold;
+    text-shadow: -1px -1px 0 #D3CCB1, 1px -1px 0 #D3CCB1, -1px 1px 0 #D3CCB1, 1px 1px 0 #D3CCB1;
+}
+#dropbtn {
+    float: right;
+    overflow: hidden;
+}
+.dropdown-content {
+  display: none;
+}
+/**********/
+/*-FOOTER-*/
+/**********/
+div#footer {
+    /*background-color: #D3CCB1;*/
+    background-image: url("Movie Posters/FooterBG.png");
+    text-shadow: -1px -1px 0 #1E334E, 1px -1px 0 #1E334E, -1px 1px 0 #1E334E, 1px 1px 0 #1E334E;
+    height: 121px;
+}
+p#foot {
+    height: 8px;
+    font-size: 14px;
+    color: #D3CCB1;
+}
+/**********/
+/*-GENERAL-*/
+/**********/
+#MainBG {
+    min-height: 699px;
+}
+body {
+    background-color: #0F1317;
+    font-family: antipasto demibold;
+}
+.show {
+    display: block;
+}
+#head #AdminUN {
+    font-size: 24px;
+    color: #1E334E;
+    font-family: antipasto extrabold;
+    text-shadow: -1px -1px 0 #D3CCB1, 1px -1px 0 #D3CCB1, -1px 1px 0 #D3CCB1, 1px 1px 0 #D3CCB1;
+}
+input#logoutbtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+    z-index: 2;
+    border-radius: 20px !important;
+    padding: 0 !important;
+}
